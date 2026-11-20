@@ -1,0 +1,39 @@
+FERRY'S SANDWICHES - CREDITS
+
+Game design, character (Ferry), and all hand-drawn Ferry art (assets/source): Yui
+Ferry sprite sheet (assets/ferry): generated from Yui's drawings by tools/build_sprites.py
+Code: written with assistance from Claude (Anthropic) and edited by Yui
+Engine: Pygame (LGPL 2.1) - https://www.pygame.org
+Other libraries: NumPy (BSD) - https://numpy.org
+Sound effects and music: generated in code (sound_synth.py), no external audio files
+Bad-item art (sock, sponge, coin): drawn in code for this game
+Menus, buttons, order ticket, cursor: Cozy UI Pack by dobo_ui (see below); HUD text drawn in code
+Font: system font if available, otherwise the font bundled with Pygame
+
+Third-party art used (resized; some recolored):
+
+- Food icons: bread slice, cabbage (used as lettuce), cooked meat (recolored pink, used as ham),
+  cheese slice, pickle (used as cucumber), tomato, egg (recolored, used as rotten egg),
+  rotten banana
+    Pack: "Food Vector Icons Pack" (Food_icons.zip)
+    Author: NormalMap_Games
+    License: not stated on the itch.io page (pay-what-you-want download) - ask the author
+             or check the purchase page before sharing the game publicly
+    Link: https://normalmap-games.itch.io/food-vector-icons-pack
+
+- UI pieces (assets/ui: pill and round buttons, cards, checkbox, arrows, cursor, icons)
+    Pack: "Cozy UI Pack - Cute icons and User Interface" (free DEMO version)
+    Author: dobo_ui
+    License: page terms allow use/rework in personal and commercial projects; no reselling or
+             redistributing the assets themselves; attribution not required (none stated).
+             The DEMO zip has no separate license file - contact: duplo.support@gmail.com
+    Link: https://dobo-ui.itch.io/cozy-ui
+
+- Diner background (jukebox.jpg, cropped to 4:3)
+    Pack: "diner final.zip" (also has counter.jpg, table.jpg, distance.jpg and damaged variants)
+    Author: [FILL IN - the zip has no readme and the pack was not found on itch.io by file names]
+    License: [FILL IN]
+    Link: [FILL IN]
+
+Please check each pack's license page (itch.io, OpenGameArt, etc.) before sharing the game
+publicly, and make sure it allows reuse/modification.

@@ -20,7 +20,7 @@ order: bread, lettuce, ham, cheese, cucumber, tomato, bread on top. Avoid the ju
 - Catch the item highlighted on the ORDER ticket. A wrong (but good) item bounces off and breaks your combo.
 - Junk (sock, rotten egg, coin, sponge, rotten banana): -5 seconds, -10 points.
 - 3 correct catches in a row: +2s. 6 in a row: +3s and triple points.
-- Finished sandwich: +50 points and +5s. Build 5 sandwiches before the 2:00 timer ends to win.
+- Finished sandwich: +50 points and +5s. Build 6 sandwiches before the 2:00 timer ends to win.
 - Items fall faster after every sandwich; junk starts appearing after the first one.
 
 ## Customizing
@@ -33,4 +33,5 @@ order: bread, lettuce, ham, cheese, cucumber, tomato, bread on top. Avoid the ju
   those drawings by `tools/build_sprites.py` (needs Pillow: `pip install pillow`).
   Plate states: empty, bread, salad, ham, cheese, cucumber, tomato, breadontop;
   moods: neutral, happy, confused. Edit a drawing in `assets/source/` and re-run the script.
-- Item icons live in `assets/items/`, the background in `assets/bg/`.
+- Item icons live in `assets/items/`, the background in `assets/bg/`, and the menu/ticket
+  pieces (Cozy UI Pack by dobo_ui) in `assets/ui/`; `nine_slice()` in `main.py` stretches them.
